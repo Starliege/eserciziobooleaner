@@ -39,6 +39,9 @@ figcaption {
     font-size: 18px;
     font-weight: bold;
 }
+.autore a {
+    text-decoration: none;
+}
 .data {
     font-size: 12px;
 }
@@ -74,4 +77,37 @@ tr:nth-child(even) {
 
 tr:nth-child(odd) {
     background-color: #FFF;
+}
+h5 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+}
+
+.robo1, .robo2 {
+    width: 200px;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.robo1 {
+    background-image: url(../img/monitor.jpg);
+}
+
+.robo2 {
+    background-image: url(../img/graph.jpg);
+}
+
+h6 {
+    display: inline;
+    font-size: 18px;
+    color: #FFF;
+}
+
+footer a {
+    text-decoration: none;
 }
