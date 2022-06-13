@@ -11,14 +11,14 @@ header {
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
     background-repeat: repeat;
-    background-size: 30%;
+    background-size: 50%;
 }
 #logo {
     width: 250px;
     margin: 50px 20px 20px 20px;
 }
 
-section {
+main {
     margin: 0px 10px;
 }
 
@@ -45,4 +45,33 @@ figcaption {
 .info {
     margin: 15px 0;
     color: gray;
+}
+p {
+margin-top: 20px;
+}
+#lista1{
+    margin-left: -20px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+table th {
+    background-color: #20a9e5;
+    color: #FFF;
+}
+
+table td {
+    padding: 10px 0;
+    min-width: 300px;
+}
+
+tr:nth-child(even) {
+    background-color: #b1e5f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #FFF;
 }
